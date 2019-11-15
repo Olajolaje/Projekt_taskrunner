@@ -1,0 +1,23 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #ffff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://i.postimg.cc/CL1TG70q/white-camera-and-eyeglasses-with-black-frame-1261732.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=style.css.map */
