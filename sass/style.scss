@@ -4,18 +4,156 @@
 	box-sizing: border-box;
 }
 body {
-    margin: 0;
-    text-align: center;
-    background: #ffff;
-    color: #3d3d3d;
-    font-size: 16px;
-    line-height: 1.7;
+	margin: 0;
+	text-align: center;
+	justify-content: center;
+	background: #ffff;
+	color: #3d3d3d;
+	font-size: 16px;
+	line-height: 1.7;
 }
 .splash {
-    height: 100vh;
-    position: relative;
-    background-image: url('https://i.postimg.cc/CL1TG70q/white-camera-and-eyeglasses-with-black-frame-1261732.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+	height: 100vh;
+	position: relative;
+	background-image: url('https://i.postimg.cc/3rFLjS54/view-of-vintage-camera-325153.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+/* Navigation */
+.golden {
+	color: #ffd300;
+	justify-content: left;
+	font-size: 29px;
+	font-style: italic;
+	font-family: fantasy;
+	font-weight: 800;
+}
+.navigation {
+	padding: 30px 0;
+	color: #fff;
+	font-size: 15px;
+}
+.navigation ul {
+	padding: 0 0;
+	margin: 0 0;
+	list-style-type: none;
+}
+.navigation li {
+	display: inline-block;
+	margin: 0 36px 0 0;
+	position: relative;
+}
+.navigation a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+.navigation ul ul li {
+	display: block;
+	margin: 0 0 12px 0;
+	padding: 0 24px;
+}
+.navigation li ul {
+	color: #fff;
+	background: #ffd300;
+	display: none;
+	position: absolute;
+}
+.navigation li:hover ul  {
+	display: block;
+	z-index: 999;
+}
+.navigation li ul:hover::after li ul {
+	display: block;
+}
+.navigation ul li ul li a {
+	color: #0097e6;
+}
+.navigation li ul:hover a {
+	color: #33d9b2;
+}
+.btn {
+	border: solid;
+	border-color: #ffd300;
+	background-color: #ffd300;
+	border-radius: 5%;
+	padding: 10px;
+	color: #ffffff;
+	font-weight: 800;
+	text-decoration: none;
+}
+/* Services */
+
+.cart i, .tablet i, .lock i {
+	color: #ffd300;
+	width: 90px;
+	height: 9	0px;
+	background: #ffffff;
+	margin: 0 5px;
+	border-radius: 50%;
+	padding: 13px;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: solid;
+	border-color: #ffd300;
+	justify-content: center;
+}
+.grey {
+	color: grey;
+}
+.section subtitle.grey {
+	color: grey;
+}
+
+/* Portfolio */
+.portfolio {
+	background-color: #F0F0F0;
+	padding: 40px;
+}
+h4 {
+	color: grey;
+}
+.photo {
+	margin: 10px 0;
+	width: 300px;
+	height: 300px;
+	background: white;
+}
+.photo img {
+	width: 300px;
+	height: 200px;
+}
+
+/* Footer */
+footer {
+	margin: 30px;
+	padding: 20px;
+}
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+}
+.col-6 col-md-4 {
+	display: flex;
+	justify-content: center;
+}
+.icons a {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background: #000000;
+	display: block;
+	text-align: center;
+	margin: 0 5px;
+	border-radius: 50%;
+	padding: 6px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #ffffff;
 }

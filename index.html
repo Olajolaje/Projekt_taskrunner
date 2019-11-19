@@ -1,73 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <title>Praca domowa</title>
-      <link rel="stylesheet" href="bootstrap-grid.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-      <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="splash">
-      <div class="splash-inner">
+<head>
+  <meta charset="utf-8">
+  <title>Praca domowa</title>
+  <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="splash">
+    <div class="splash-inner">
+      <nav class="navigation">
         <div class="container">
-          <h2 class="page-subtitle"><i>Welcome To Our Studio</i></h2>
-          <h1 class="page-title">IT'S NICE TO MEET YOU</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-md">
+                <p class="golden"><strong>Golden</strong></p>
+              </div>
+              <div class="col-md">
+                <ul>
+                  <li><a href="#"><strong>HOME</strong></a>
+                    <ul>
+                      <li><a href="#"></a>company</li>
+                      <li><a href="#"></a>what we do</li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><strong>SERVICES</strong></a>
+                    <ul>
+                      <li><a href="#"></a>BTB</li>
+                      <li><a href="#"></a>BTC</li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><strong>PROJECTS</strong></a>
+                    <ul>
+                      <li><a href="#"></a>commerce</li>
+                      <li><a href="#"></a>social</li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><strong>ABOUT</strong></a>
+                    <ul>
+                      <li><a href="#"></a>company</li>
+                      <li><a href="#"></a>mission</li>
+                    </ul>
+                    <li><a href="#"><strong>CONTACT</strong></a>
+                      <ul>
+                        <li><a href="#"></a>USA</li>
+                        <li><a href="#"></a>Russia</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+          <h2 class="page-subtitle"><i><strong>Welcome To Our Studio!</strong></i></h2>
+          <h1 class="page-title"><strong>IT'S NICE TO MEET YOU</strong></h1>
           <a class="btn btn-primary" href="#">TELL ME MORE</a>
         </div>
       </div>
     </header>
-    <section>
-      <div class="col-lg-9">
-        <h2>SERVICES</h2>
-        <h4><i>Pellentesque suscipit dui a sapien.</i></h4>
+    <section class="services">
+      <div class="container">
+        <h1 class="section-title">SERVICES</h1>
+        <h3 class="section subtitle grey"><i>Pellentesque suscipit dui a sapien.</i></h3>
+      </div>
+      <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-lg-3">
-            <div class="card">
-              <div class="card-image">
-                <img class="monitor" src=<i class="fas fa-desktop"></i>
-              </div>
-              <div class="card-body">
-                <h4>E-commerce</h4>
-                <p>Aliquam fringilla, massa. Vivamus ornare, odio eget sem. Sed diam iaculis at, vulputate eget, bibendum ipsum dolor magna, gravida hendrerit vitae, vulputate at, aliquet blandit, enim quis orci vitae lectus nulla vitae augue. </p>
+          <div class="col-sm">
+            <div class="cart">
+              <a href="#"><i class="fas fa-shopping-basket fa-3x"></i></a>
+            </div>
+            <div class="ecom">
+              <div><p><strong>E-commerce</strong></p></div>
+              <div><p class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p></div>
               </div>
             </div>
-        </div>
-          <div class="col-sm-6 col-lg-3">
-            <div class="card">
-              <div class="card-image">
-                <img class="lock" src=<i class="fas fa-lock"></i>
+            <div class="col-sm">
+              <div class="tablet">
+                <a href="#"><i class="fas fa-tablet-alt fa-3x"></i></a>
               </div>
-            <div class="card-body">
-              <h4>Responsive Web</h4>
-              <p>Aliquam fringilla, massa. Vivamus ornare, odio eget sem. Sed diam iaculis at, vulputate eget, bibendum ipsum dolor magna, gravida hendrerit vitae, vulputate at, aliquet blandit, enim quis orci vitae lectus nulla vitae augue. </p>
+              <div class="responsive">
+                <div><p><strong>Responsive Web</strong></p></div>
+                <div><p class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</p></div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="lock">
+                  <a href="#"><i class="fas fa-lock fa-3x"></i></a>
+                </div>
+                <div class="security">
+                  <div><p><strong>Web Security</strong></p></div>
+                  <div><p class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.</p></div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-          <div class="col-sm-6 col-lg-3">
-            <img class="cart" src=<i class="fas fa-shopping-cart"></i>
-            <div class="card-body">
-              <h4>Web Security</h4>
-              <p>Aliquam fringilla, massa. Vivamus ornare, odio eget sem. Sed diam iaculis at, vulputate eget, bibendum ipsum dolor magna, gravida hendrerit vitae, vulputate at, aliquet blandit, enim quis orci vitae lectus nulla vitae augue. </p>
+          </section>
+          <section class="portfolio">
+            <h1>OUR PORTFOLIO</h1>
+            <h4><i>Pellentesque suscipit dui a sapien.</i></h4>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <div>
+                    <figure class="photo">
+                      <img src="https://i.postimg.cc/Ss9NNJfm/battle-black-blur-board-game-260024.jpg" alt="szachy">
+                      <figcaption>
+                        <p><strong>Ebony & Ivory</strong></p>
+                        <p><i>Branding</i></p>
+                      </figcaption>
+                    </figure>
+                    <figure class="photo">
+                      <img src="https://i.postimg.cc/2S5Y4L1v/vinyl-record-1374557.jpg" alt="vinyl">
+                      <figcaption>
+                        <p><strong>Vinyl Record</strong></p>
+                        <p><i>Product Mock-up</i></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                </div>
+                <div class="col-sm">
+                  <div>
+                    <figure class="photo">
+                      <img src="https://i.postimg.cc/26KXv3Bk/black-twist-pen-on-notebook-891059.jpg" alt="pen">
+                      <figcaption>
+                        <p><strong>Smart Stationary</strong></p>
+                        <p><i>Print Design</i></p>
+                      </figcaption>
+                    </figure>
+                    <figure class="photo">
+                      <img src="https://i.postimg.cc/8cH5C8YV/black-samsung-tablet-computer-106344-1.jpg" alt="website">
+                      <figcaption>
+                        <p><strong>Treehouse Template</strong></p>
+                        <p><i>Web Design</i></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div>
+                    <figure class="photo">
+                      <img src="https://i.postimg.cc/cHJg8LQL/arrows-box-business-chalk-533189.jpg" alt="black">
+                      <figcaption>
+                        <p><strong>Clever Poster</strong></p>
+                        <p><i>Print Design</i></p>
+                      </figcaption>
+                    </figure>
+                    <figure class="photo">
+                      <img src="https://i.postimg.cc/kX8QCwqM/postage-stamp-247801.jpg" alt="seal">
+                      <figcaption>
+                        <p><strong>Burned Logo</strong></p>
+                        <p><i>Branding</i></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-    </section>
-    <section class="portfolio">
-      <h2>OUR PORTFOLIO</h2>
-      <h4><i>Pellentesque suscipit dui a sapien.</i></h4>
-    </section>
-    <footer class="footer">
-      <div class="cont">
-        <p>© Copyright 2014 FreebiesXpress.com
-        <div class="icons">
-          <div class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></div>
-          <div class="facebook"><a href="#"><i class="fab fa-facebook-square"></i></a></div>
-          <div class="google"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
-          <div class="printerest"><a href="#"><i class="fab fa-pinterest-p"></i></a></div>
-        </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+          </section>
+          <footer class="footer">
+            <div class="row">
+              <div class="col-6 col-md-4">© Copyright 2014 FreebiesXpress.com</div>
+              <div class="col-6 col-md-4">
+                <div class="icons">
+                  <div class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                  <div class="facebook"><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+                  <div class="google"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
+                  <div class="printerest"><a href="#"><i class="fab fa-pinterest-p"></i></a></div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4"></div>
+            </div>
+          </footer>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </body>
+        </html>
